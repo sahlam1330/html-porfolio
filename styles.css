@@ -1,0 +1,17 @@
+#hobbies {
+    font-family: "Doto", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings:
+      "ROND" 0;
+}
+
+#aboutme {
+    font-family: "Agu Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "MORF" 20;
+}
