@@ -25,13 +25,13 @@ h1 {
 }
 
 
-.container{
+#container{
     border: 5px solid white;
     background-color: white;
     margin-right: 0%;
 }
 
-.container1{
+#container1{
 
     margin-left: 35%;
     position:absolute;
@@ -39,17 +39,17 @@ h1 {
     
 }
 
-.container2{
-    margin-left: 40%;
+#container2{
+    margin-left: 35%;
 }
 
-.container3{
+#container3{
 
     position: absolute;
-    top: 400px;
+    top: 330px;
 
 }
 
-.container3 h3{
+#container3 h3{
     text-align: center;
 }

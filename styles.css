@@ -1,3 +1,8 @@
+
+#resume{
+  margin-top: 10px;
+}
+
 #hobbies {
     font-family: "Doto", serif;
     font-optical-sizing: auto;
@@ -5,6 +10,12 @@
     font-style: normal;
     font-variation-settings:
       "ROND" 0;
+
+    position: relative;
+    left: 60%;
+    position: absolute;
+    top: 100px;
+    margin-top: 10px;
 }
 
 #aboutme {
@@ -14,4 +25,17 @@
     font-style: normal;
     font-variation-settings:
       "MORF" 20;
+    position: relative;
+    left: 30%;
+    position: absolute;
+    top: 100px;
+    margin-top: 10px;
+
+      
+  
 }
+
+#sports{
+  margin-top: 50px;
+}
+
