@@ -16,6 +16,8 @@ h1 {
 #resume-header{
     text-align: left;
     margin: 0px;
+    font-weight: bolder;
+    font-size: 5em;
 }
 
 #resume-summary{
