@@ -4,12 +4,21 @@ html{
   margin-left: 300px;
   margin-right: 300px;
 }
+html div{
+  margin-right: 860px;
+  padding-right: 10px;
+}
 
 
 #resume{
+  background-color: gray;
+  height: 300px;
+  width: 400px;
   position: relative;
   top: 100px;
   left:10% ;
+  padding: 10px;
+
 }
 
 
@@ -23,7 +32,12 @@ html{
   left: 56%;
   top: 100px;
   position: absolute;
-  top: 230px;
+  top: 255px;
+  background-color: gray;
+  height: 300px;
+  width: 400px;
+  padding: 10px;
+
 
 }
 
@@ -34,10 +48,14 @@ html{
     font-style: normal;
     font-variation-settings:
       "ROND" 0;
-
     position: relative;
     left: 10%;
     top: 200px;
+    background-color: gray;
+    height: 300px;
+    width: 400px;
+    padding: 10px;
+  
 
 
 }
@@ -47,11 +65,13 @@ html{
 #sports{
 
   position: relative;
-  bottom: 60px;
+  bottom: 120px;
   left: 60%;
+  background-color: gray;
+  height: 300px;
+  width: 400px;
+  padding: 10px;
 
 
 
 }
-
-
