@@ -1,0 +1,16 @@
+img {
+    position: static;
+    height: 300px;
+    width: 100%;
+}
+
+#Dtitle {
+    text-align: center;
+    background-color: blue;
+    height: 50px;
+    position: absolute;
+    top: 287px;
+    width: 1905px;
+    color: white;
+   
+}

@@ -32,7 +32,6 @@ h1{
   width: 100%;
 }
 
-#aboutBody{
-  margin-left: 300px;
-  margin-right: 300px;
+#college, #college2 {
+  color:white;
 }
