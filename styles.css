@@ -1,36 +1,27 @@
 
 html{
   background-color:wheat ;
-  margin-left: 300px;
-  margin-right: 300px;
-}
-@media (max-width:600px) {
-  h1, h2, h3{
-    font-size: 15px;
-  }
-
-  #hobbies{
-   
-  }
-
+  margin-left: 400px;
+  margin-right: 400px;
 }
 
 
-html div{
-  margin-right: 860px;
-  padding-right: 10px;
+.main {
+  flex:2
 }
 
+div .hobbies .sports {
+  margin-top: 10px;
+}
 
 .resume{
   background-color: gray;
   height: 300px;
   width: 400px;
-  position: relative;
-  top: 100px;
-  left:10% ;
   padding: 10px;
   border: 5px solid black;
+  float: left;
+  margin:10px
 }
 
 
@@ -40,16 +31,13 @@ html div{
   font-style: normal;
   font-variation-settings:
     "MORF" 40;
-  position: relative;
-  left: 1080px;
-  top: 100px;
-  position: absolute;
-  top: 255px;
   background-color: gray;
   height: 300px;
   width: 400px;
   padding: 10px;
   border: 5px solid black;
+  float: left;
+  margin:10px
 
 }
 
@@ -60,28 +48,44 @@ html div{
     font-style: normal;
     font-variation-settings:
       "ROND" 0;
-    position: relative;
-    left: 10%;
-    top: 200px;
     background-color: gray;
     height: 300px;
     width: 400px;
     padding: 10px;
     border: 5px solid black;
-
-
+    float: left;
+    margin: 10px;
 }
 
 
 
 .sports{
-
-  position: relative;
-  bottom: 135px;
-  left: 60%;
   background-color: gray;
   height: 300px;
   width: 400px;
   padding: 10px;
   border: 5px solid black;
+  float:left;
+  margin: 10px;
 }
+
+@media(max-width:680px) {
+
+  h2{
+    text-align: justify;
+  }
+
+  .resume .aboutme .hobbies .sports {
+    width: 100%;
+    display: block;
+    margin-bottom: 30px;
+    text-align: justify;
+  }
+
+  .resume .aboutme .sports .hobbies img {
+    margin-bottom: 10px;
+    width: 100%;
+    display: inline;
+    object-fit: cover;
+  }
+  }
