@@ -1,8 +1,8 @@
-
-h1{
-  text-align: center;
+html{
+  margin-left: 200px;
+  margin-right: 200px;
 }
- 
+
 *{
     font-family: "Agu Display", serif;
     font-optical-sizing: auto;
@@ -13,22 +13,43 @@ h1{
 }
 
 
-#spot1{
+#green{
   background-color: green;
   width: 100%;
+  float: left;
+}
+h1{
+  text-align: center;
 }
 
-
-#spot2{
+img{
+  float:left;
+}
+#white{
   background-color: white;
   width: 100%;
+  display: inline-block;
+  margin-top: 20px;
+}
+.va-image{
+  float: right;
+  margin-right: 130px;
+}
+.uk-image{
+  float: left;
+  margin-right: 20px;
 }
 
-#spot3{
+#blue{
   background-color: blue;
   width: 100%;
+  display: inline-block;
+ margin-top: 20px;
 }
-
-#college, #college2 {
-  color:white;
+.hs-image{
+  float: left;
+}
+.college-image{
+  float: right;
+  margin-right: 100px;
 }
