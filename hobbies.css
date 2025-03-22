@@ -5,4 +5,23 @@ h1,h2{
         font-style: normal;
         font-variation-settings:
           "ROND" 10;
+        text-align: center;
+
+}
+h3{
+  text-align: center;
+}
+
+
+.container1 {
+  display: flex;
+  gap: 200px;
+}
+
+.games{
+  background-color: red;
+  margin-left: 30px;
+}
+.movies {
+  background-color: white;
 }
